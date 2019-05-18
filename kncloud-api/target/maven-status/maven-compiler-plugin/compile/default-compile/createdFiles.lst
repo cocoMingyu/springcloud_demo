@@ -1,0 +1,6 @@
+com\kn\api\entity\User.class
+com\kn\api\service\OrderService.class
+com\kn\api\entity\Orders.class
+com\kn\api\service\OrderServiceFallBack$1.class
+com\kn\api\entity\Orders$OrdersBuilder.class
+com\kn\api\service\OrderServiceFallBack.class

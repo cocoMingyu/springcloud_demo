@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kncloud-account" />
+        <module name="kncloud-api" />
+        <module name="kncloud-eureka" />
+        <module name="kncloud-eureka-7001" />
+        <module name="kncloud-eureka-7002" />
+        <module name="kncloud-order" />
+        <module name="kncloud-order-8101" />
+        <module name="kncloud-order-8102" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kncloud" target="1.8" />
+      <module name="kncloud-account" target="1.8" />
+      <module name="kncloud-api" target="1.8" />
+      <module name="kncloud-eureka" target="1.8" />
+      <module name="kncloud-eureka-7001" target="1.8" />
+      <module name="kncloud-eureka-7002" target="1.8" />
+      <module name="kncloud-order" target="1.8" />
+      <module name="kncloud-order-8101" target="1.8" />
+      <module name="kncloud-order-8102" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

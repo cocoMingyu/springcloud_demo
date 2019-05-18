@@ -1,0 +1,25 @@
+server:
+  port: 8101
+
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/order02
+    username: root
+    password: 123456
+
+eureka:
+  client: #客户端注册进eureka服务列表
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7000.com:7000/eureka/,http://eureka7002.com:7002/eureka/
+  instance:
+    instance-id: kncloud-order-8101 #自定义服务名称信息
+    prefer-ip-address: true #访问路径显示IP地址
+
+info:
+  app.name: com.kn.cloud
+  company.name: www.kn.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
